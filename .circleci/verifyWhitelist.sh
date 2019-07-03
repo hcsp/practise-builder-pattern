@@ -41,6 +41,6 @@ done
 if [ ${#RESULT[@]} -ne 0 ]; then
     echo -e "We only allow the modification of these files:\n${WHITELIST[@]}\n\nThe files you modified:\n${RESULT[@]}"
     echo -e "\n--------------------\n"
-    echo -e "我们只允许你修改以下文件:\n${WHITELIST[@]}\n\n但是你修改了:\n${RESULT[@]}"
+    echo -e "我们只允许你修改以下文件:\n${WHITELIST[@]}\n\n但是你修改了:\n${RESULT[@]}\n"
     exit 1
 fi
