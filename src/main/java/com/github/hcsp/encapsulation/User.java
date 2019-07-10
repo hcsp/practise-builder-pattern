@@ -29,10 +29,10 @@ public class User {
         return address;
     }
 
-    User(UserBuilder userBuilder) {
-        this.firstName = userBuilder.getFirstName();
-        this.lastName = userBuilder.getLastName();
-        this.phoneNumber = userBuilder.getPhoneNumber();
-        this.address = userBuilder.getAddress();
+    User(String firstName, String lastName, String phoneNumber, String address) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.phoneNumber = phoneNumber;
+        this.address = address;
     }
 }

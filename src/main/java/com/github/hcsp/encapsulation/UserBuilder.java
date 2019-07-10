@@ -50,6 +50,6 @@ public class UserBuilder {
         return this;
     }
     public User build(){
-        return new User(this);
+        return new User(this.firstName,this.lastName,this.phoneNumber,this.address);
     }
 }
