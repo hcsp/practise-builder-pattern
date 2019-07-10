@@ -26,6 +26,6 @@ public class UserBuilder {
     }
     
     public User build() {
-        return new User();
+        return new User(firstName, lastName, phoneNumber, address);
     }
 }
