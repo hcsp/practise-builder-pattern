@@ -5,16 +5,16 @@ public class UserBuilder {
     // 所需的接口请参阅UserBuilderTest测试类
 
     /** 用户的名 */
-    private final String firstName;
+    private String firstName;
 
     /** 用户的姓 */
-    private final String lastName;
+    private String lastName;
 
     /** 用户的电话 */
-    private final String phoneNumber;
+    private String phoneNumber;
 
     /** 用户的地址 */
-    private final String address;
+    private String address;
 
     private UserBuilder(){};
 
