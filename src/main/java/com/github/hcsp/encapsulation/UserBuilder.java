@@ -16,8 +16,6 @@ public class UserBuilder {
     /** 用户的地址 */
     private String address;
 
-    private UserBuilder(){};
-
     public UserBuilder firstName(String firstName) {
         if (firstName != null) {
             this.firstName = firstName;
