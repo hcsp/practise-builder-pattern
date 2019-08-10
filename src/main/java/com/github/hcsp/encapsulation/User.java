@@ -13,6 +13,7 @@ public class User {
     /** 用户的地址 */
     private final String address;
 
+
     public String getFirstName() {
         return firstName;
     }
@@ -29,10 +30,14 @@ public class User {
         return address;
     }
 
+
+
     User(String firstName, String lastName, String phoneNumber, String address) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.phoneNumber = phoneNumber;
         this.address = address;
     }
+
+
 }
