@@ -8,11 +8,12 @@ public class UserBuilder {
     private String phoneNumber;
     private String address;
 
-    private UserBuilder(){
-
+    public UserBuilder(){
     }
 
-    public static UserBuilder aUser(){return new UserBuilder(); }
+    public static UserBuilder aUser(){
+        return new UserBuilder();
+    }
 
     public UserBuilder withFirstName(String firstName){
         this.firstName = firstName;
@@ -31,5 +32,7 @@ public class UserBuilder {
         return this;
     }
 
-    public User build(){ return new User(firstName,lastName,phoneNumber,address);}
+    public User build(){
+        return new User(firstName,lastName,phoneNumber,address);
+    }
 }
