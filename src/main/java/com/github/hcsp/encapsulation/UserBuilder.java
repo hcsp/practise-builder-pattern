@@ -31,7 +31,7 @@ public class UserBuilder {
         return this;
     }
     public User build(){
-        return new User(lastName,firstName,phoneNumber,address);
+        return new User(firstName,lastName,phoneNumber,address);
     }
 
 }
