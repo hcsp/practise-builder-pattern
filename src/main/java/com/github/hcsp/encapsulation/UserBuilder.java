@@ -6,29 +6,29 @@ public class UserBuilder {
     private String phoneNumber;
     private String address;
 
-    private UserBuilder() {
+    UserBuilder() {
     }
 
     public static UserBuilder anUser() {
         return new UserBuilder();
     }
 
-    public UserBuilder withFirstName(String firstName) {
+    public UserBuilder firstName(String firstName) {
         this.firstName = firstName;
         return this;
     }
 
-    public UserBuilder withLastName(String lastName) {
+    public UserBuilder lastName(String lastName) {
         this.lastName = lastName;
         return this;
     }
 
-    public UserBuilder withPhoneNumber(String phoneNumber) {
+    public UserBuilder phoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
         return this;
     }
 
-    public UserBuilder withAddress(String address) {
+    public UserBuilder address(String address) {
         this.address = address;
         return this;
     }
