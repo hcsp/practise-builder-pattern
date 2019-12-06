@@ -17,7 +17,7 @@ public class UserBuilder {
     }
 
     public UserBuilder getLastName(String lastName) {
-        this.firstName = lastName;
+        this.lastName = lastName;
         return this;
     }
 
