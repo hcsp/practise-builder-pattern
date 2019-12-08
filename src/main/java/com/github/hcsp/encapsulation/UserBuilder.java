@@ -11,27 +11,27 @@ public class UserBuilder {
 
     private String address;
 
-    public UserBuilder getFirstName(String firstName) {
+    public UserBuilder firstName(String firstName) {
         this.firstName = firstName;
         return this;
     }
 
-    public UserBuilder getLastName(String lastName) {
+    public UserBuilder lastName(String lastName) {
         this.lastName = lastName;
         return this;
     }
 
-    public UserBuilder getPhoneNumber(String phoneNumber) {
+    public UserBuilder phoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
         return this;
     }
 
-    public UserBuilder getAddress(String address) {
+    public UserBuilder address(String address) {
         this.address = address;
         return this;
     }
 
-    public User Builder() {
+    public User build() {
         return new User(firstName, lastName, phoneNumber, address);
     }
 }
