@@ -20,7 +20,7 @@ public class UserBuilder {
         return this;
     }
 
-    public UserBuilder LastName(String lastName){
+    public UserBuilder lastName(String lastName){
         this.lastName=lastName;
         return this;
     }
