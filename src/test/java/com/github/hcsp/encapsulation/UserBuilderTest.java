@@ -9,7 +9,7 @@ public class UserBuilderTest {
         User user =
                 new UserBuilder()
                         .firstName("德华")
-                        .LastName("刘")
+                        .lastName("刘")
                         .phoneNumber("我也不知道")
                         .address("可能在地球上吧")
                         .build();
