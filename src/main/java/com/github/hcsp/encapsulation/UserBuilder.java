@@ -8,6 +8,9 @@ public class UserBuilder {
     private String phoneNumber;
     private String address;
 
+    public UserBuilder() {
+    }
+
 
     public UserBuilder firstName(String firstName) {
         this.firstName = firstName;
@@ -32,5 +35,4 @@ public class UserBuilder {
     public User build() {
         return new User(firstName, lastName, phoneNumber, address);
     }
-
 }
