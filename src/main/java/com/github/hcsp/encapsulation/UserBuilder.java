@@ -11,6 +11,9 @@ public class UserBuilder {
     public UserBuilder() {
     }
 
+    public static UserBuilder anUser() {
+        return new UserBuilder();
+    }
 
     public UserBuilder firstName(String firstName) {
         this.firstName = firstName;
