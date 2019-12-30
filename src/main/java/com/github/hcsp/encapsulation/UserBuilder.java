@@ -8,34 +8,24 @@ public class UserBuilder {
     private String phoneNumber;
     private String address;
 
-    public UserBuilder() {
-    }
-
-    public static UserBuilder anUser() {
-        return new UserBuilder();
-    }
-
     public UserBuilder firstName(String firstName) {
         this.firstName = firstName;
         return this;
     }
-
     public UserBuilder lastName(String lastName) {
         this.lastName = lastName;
         return this;
     }
-
     public UserBuilder phoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
         return this;
     }
-
     public UserBuilder address(String address) {
         this.address = address;
         return this;
     }
 
     public User build() {
-        return new User(firstName, lastName, phoneNumber, address);
+        return new User(this.firstName,this.lastName,this.phoneNumber,this.address);
     }
 }
