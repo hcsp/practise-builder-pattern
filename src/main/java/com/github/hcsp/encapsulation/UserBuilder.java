@@ -1,6 +1,7 @@
 package com.github.hcsp.encapsulation;
 
 public final class UserBuilder {
+
     private String firstName;
     private String lastName;
     private String phoneNumber;
