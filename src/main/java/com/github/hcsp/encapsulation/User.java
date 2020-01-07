@@ -1,16 +1,24 @@
 package com.github.hcsp.encapsulation;
 
 public class User {
-    /** 用户的名 */
+    /**
+     * 用户的名
+     */
     private final String firstName;
 
-    /** 用户的姓 */
+    /**
+     * 用户的姓
+     */
     private final String lastName;
 
-    /** 用户的电话 */
+    /**
+     * 用户的电话
+     */
     private final String phoneNumber;
 
-    /** 用户的地址 */
+    /**
+     * 用户的地址
+     */
     private final String address;
 
     public String getFirstName() {
@@ -35,6 +43,4 @@ public class User {
         this.phoneNumber = phoneNumber;
         this.address = address;
     }
-
-
 }
