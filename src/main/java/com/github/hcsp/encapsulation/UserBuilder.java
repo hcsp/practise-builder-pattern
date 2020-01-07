@@ -8,6 +8,7 @@ public final class UserBuilder {
     private String address;
 
     public UserBuilder() {
+        //
     }
 
     public UserBuilder firstName(String firstName) {
