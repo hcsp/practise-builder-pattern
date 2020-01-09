@@ -13,7 +13,6 @@ public class User {
     /** 用户的地址 */
     private final String address;
 
-
     public String getFirstName() {
         return firstName;
     }
