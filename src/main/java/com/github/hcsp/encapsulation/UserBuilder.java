@@ -1,17 +1,10 @@
 package com.github.hcsp.encapsulation;
 
-public class UserBuilder {
+public  class UserBuilder {
     private String firstName;
     private String lastName;
     private String phoneNumber;
     private String address;
-
-    UserBuilder() {
-    }
-
-    public static UserBuilder anUser() {
-        return new UserBuilder();
-    }
 
     public UserBuilder firstName(String firstName) {
         this.firstName = firstName;
