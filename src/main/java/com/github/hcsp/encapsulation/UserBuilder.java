@@ -1,10 +1,12 @@
 package com.github.hcsp.encapsulation;
 
 public class UserBuilder {
-    String firstName; // package protected, 相同包的不同类也可以访问
-    String lastName;
-    String phoneNumber;
-    String address;
+    // 请在这里使用builder模式建造User对象
+    // 所需的接口请参阅UserBuilderTest测试类
+    private String firstName;
+    private String lastName;
+    private String phoneNumber;
+    private String address;
 
     public UserBuilder(){}
 
@@ -30,8 +32,7 @@ public class UserBuilder {
 
     public User build(){
         // 将builder的属性传入User构造器中， 创建user对象
-        return new User(this);
+        return new User(firstName, lastName, phoneNumber, address);
     }
 
 }
-
