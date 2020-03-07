@@ -9,22 +9,22 @@ public class UserBuilder {
     public UserBuilder() {
     }
 
-    public UserBuilder firstName() {
+    public UserBuilder firstName(String firstName) {
         this.firstName = firstName;
         return this;
     }
 
-    public UserBuilder lastName() {
+    public UserBuilder lastName(String lastName) {
         this.lastName = lastName;
         return this;
     }
 
-    public UserBuilder phoneNumber() {
+    public UserBuilder phoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
         return this;
     }
 
-    public UserBuilder address() {
+    public UserBuilder address(String address) {
         this.address = address;
         return this;
     }
