@@ -8,14 +8,6 @@ public class UserBuilder {
     private String phoneNumber;
     private String address;
 
-    public UserBuilder(){
-
-    }
-
-    public static UserBuilder newUser(){
-        return new UserBuilder();
-    }
-
     public UserBuilder firstName(String firstName){
         this.firstName = firstName;
         return this;
@@ -35,7 +27,7 @@ public class UserBuilder {
         this.address = address;
         return this;
     }
-    public User bulid(){
+    public User build(){
         return new User(firstName, lastName, phoneNumber, address);
     }
 
