@@ -1,3 +1,5 @@
+
+
 package com.github.hcsp.encapsulation;
 
 
@@ -11,26 +13,28 @@ public class UserBuilder {
 
     }
 
+
     public static UserBuilder newUser() {
         return new UserBuilder();
     }
 
-    public UserBuilder setFirstName(String firstName) {
+    public UserBuilder FirstName(String firstName) {
         this.firstName = firstName;
         return this;
     }
 
-    public UserBuilder setLastName(String lastName) {
+
+    public UserBuilder LastName(String lastName) {
         this.lastName = lastName;
         return this;
     }
 
-    public UserBuilder setPhoneNumber(String phoneNumber) {
+    public UserBuilder PhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
         return this;
     }
 
-    public UserBuilder setAddress(String address) {
+    public UserBuilder Address(String address) {
         this.address = address;
         return this;
     }
@@ -41,3 +45,5 @@ public class UserBuilder {
         return new User(firstName, lastName, phoneNumber, address);
     }
 }
+
+
