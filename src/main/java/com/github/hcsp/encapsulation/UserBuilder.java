@@ -2,16 +2,22 @@ package com.github.hcsp.encapsulation;
 
 public class UserBuilder {
     // 请在这里使用builder模式建造User对象
-    private   String firstName;
+    private String firstName;
 
-    /** 用户的姓 */
-    private   String lastName;
+    /**
+     * 用户的姓
+     */
+    private String lastName;
 
-    /** 用户的电话 */
-    private   String phoneNumber;
+    /**
+     * 用户的电话
+     */
+    private String phoneNumber;
 
-    /** 用户的地址 */
-    private   String address;
+    /**
+     * 用户的地址
+     */
+    private String address;
 
     public UserBuilder() {
     }
