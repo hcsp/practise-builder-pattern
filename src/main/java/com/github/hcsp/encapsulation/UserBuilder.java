@@ -13,8 +13,7 @@ public class UserBuilder {
     /** 用户的地址 */
     private   String address;
 
-    public UserBuilder(){
-
+    public UserBuilder() {
     }
 
     public UserBuilder firstName(String firstName) {
@@ -40,7 +39,5 @@ public class UserBuilder {
     public User build() {
         return new User(firstName, lastName, phoneNumber, address);
     }
-
-
     // 所需的接口请参阅UserBuilderTest测试类
 }
