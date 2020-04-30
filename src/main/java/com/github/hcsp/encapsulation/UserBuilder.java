@@ -9,10 +9,6 @@ public final class UserBuilder {
     private UserBuilder() {
     }
 
-    public static UserBuilder anUser() {
-        return new UserBuilder();
-    }
-
     public UserBuilder firstName(String firstName) {
         this.firstName = firstName;
         return this;
