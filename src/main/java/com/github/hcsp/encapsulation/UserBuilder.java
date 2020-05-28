@@ -1,12 +1,12 @@
 package com.github.hcsp.encapsulation;
 
-public final class UserBuilder {
+public class UserBuilder {
     private String firstName;
     private String lastName;
     private String phoneNumber;
     private String address;
 
-    private UserBuilder() {
+    public UserBuilder() {
     }
 
     public static UserBuilder anUser() {
