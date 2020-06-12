@@ -10,7 +10,7 @@ public class UserBuilder {
 
     public UserBuilder() {
     }
-    
+
     public UserBuilder firstName(String firstName) {
         this.firstName = firstName;
         return this;
@@ -26,7 +26,7 @@ public class UserBuilder {
         return this;
     }
 
-    public UserBuilder address(String firstName) {
+    public UserBuilder address(String address) {
         this.address = address;
         return this;
     }
