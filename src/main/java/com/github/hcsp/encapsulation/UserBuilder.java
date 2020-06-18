@@ -9,7 +9,9 @@ public class UserBuilder {
     String phoneNumber;
     String address;
 
-    public UserBuilder () {}
+    public UserBuilder () {
+
+    }
 
     public UserBuilder firstName (String firstName) {
         this.firstName = firstName;
