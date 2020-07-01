@@ -6,7 +6,7 @@ public class UserBuilder {
     private String phoneNumber;
     private String address;
 
-    private UserBuilder() {
+    public UserBuilder() {
     }
 
     public UserBuilder firstName(String firstName) {
@@ -30,7 +30,7 @@ public class UserBuilder {
     }
 
     public User build() {
-        return new User(firstName,lastName,phoneNumber,address);
+        return new User(firstName, lastName, phoneNumber, address);
     }
 
     // 请在这里使用builder模式建造User对象
