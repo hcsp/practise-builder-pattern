@@ -27,8 +27,9 @@ public class UserBuilder {
         this.address = address;
         return this;
     }
-    public User build(){
-        return new User(firstName,lastName,phoneNumber,address);
+
+    public User build() {
+        return new User(firstName, lastName, phoneNumber, address);
 
     }
 }
