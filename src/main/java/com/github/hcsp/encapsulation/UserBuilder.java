@@ -8,28 +8,28 @@ public class UserBuilder {
 
     // 请在这里使用builder模式建造User对象
     // 所需的接口请参阅UserBuilderTest测试类
-    public UserBuilder firstName(String firstname){
+    public UserBuilder firstName(String firstname) {
         this.firstName = firstname;
         return this;
-    };
+    }
 
     public UserBuilder lastName(String lastName) {
         this.lastName = lastName;
         return this;
-    };
+    }
 
     public UserBuilder phoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
         return this;
-    };
+    }
 
     public UserBuilder address(String address) {
         this.address = address;
         return this;
-    };
+    }
 
     public User build() {
-        return new User(firstName,lastName,phoneNumber,address);
-    };
+        return new User(firstName, lastName, phoneNumber, address);
+    }
 
 }
