@@ -16,56 +16,25 @@ public class UserBuilder {
     /** 用户的地址 */
     private String address;
 
-    public String getFirstName() {
-        return firstName;
-    }
 
-    public String getLastName() {
-        return lastName;
-    }
-
-    public String getPhoneNumber() {
-        return phoneNumber;
-    }
-
-    public String getAddress() {
-        return address;
-    }
-
-
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
-
-    public void setPhoneNumber(String phoneNumber) {
-        this.phoneNumber = phoneNumber;
-    }
-
-    public void setAddress(String address) {
-        this.address = address;
-    }
 
     public UserBuilder firstName(String firstName) {
-        this.setFirstName(firstName);
+        this.firstName = firstName;
         return this;
     }
 
     public UserBuilder lastName(String lastName) {
-        this.setLastName(lastName);
+        this.lastName = lastName;
         return this;
     }
 
     public UserBuilder phoneNumber(String phoneNumber) {
-        this.setPhoneNumber(phoneNumber);
+        this.phoneNumber = phoneNumber;
         return this;
     }
 
     public UserBuilder address(String address) {
-        this.setAddress(address);
+        this.address = address;
         return this;
     }
 
