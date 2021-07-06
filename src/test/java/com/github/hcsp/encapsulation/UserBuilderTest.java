@@ -7,7 +7,7 @@ public class UserBuilderTest {
     @Test
     public void canUseBuilderToCreateObjects() {
         User user =
-                new UserBuilder()
+                new UserBuilder(firstName, lastName, phoneNumber, address)
                         .firstName("德华")
                         .lastName("刘")
                         .phoneNumber("我也不知道")
