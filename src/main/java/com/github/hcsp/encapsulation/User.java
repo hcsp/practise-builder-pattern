@@ -1,5 +1,6 @@
 package com.github.hcsp.encapsulation;
 
+
 public class User {
     /** 用户的名 */
     private final String firstName;
@@ -35,4 +36,5 @@ public class User {
         this.phoneNumber = phoneNumber;
         this.address = address;
     }
+
 }
