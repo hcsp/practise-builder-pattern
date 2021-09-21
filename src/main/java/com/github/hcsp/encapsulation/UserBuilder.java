@@ -9,9 +9,6 @@ public final class UserBuilder {
     private UserBuilder() {
     }
 
-    public static UserBuilder anUser() {
-        return new UserBuilder();
-    }
 
     public UserBuilder withFirstName(String firstName) {
         this.firstName = firstName;
@@ -33,6 +30,7 @@ public final class UserBuilder {
     }
 
     public User build() {
+
         return new User(firstName, lastName, phoneNumber, address);
     }
 }
