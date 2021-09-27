@@ -6,8 +6,8 @@ public final class UserBuilder {
     private String phoneNumber;
     private String address;
 
-    private UserBuilder() {
-    }
+//    private UserBuilder() {
+//    }
 
     public static UserBuilder UserBuilder() {
         return new UserBuilder();
