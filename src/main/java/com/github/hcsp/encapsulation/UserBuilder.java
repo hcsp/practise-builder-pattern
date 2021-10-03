@@ -6,13 +6,6 @@ public final class UserBuilder {
     private String phoneNumber;
     private String address;
 
-    public UserBuilder() {
-    }
-
-    public static UserBuilder anUser() {
-        return new UserBuilder();
-    }
-
     public UserBuilder firstName(String firstName) {
         this.firstName = firstName;
         return this;
