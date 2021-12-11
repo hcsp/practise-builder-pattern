@@ -9,9 +9,9 @@ public final class UserBuilder {
     UserBuilder() {
     }
 
-//    public static UserBuilder anUser() {
-//        return new UserBuilder();
-//    }
+    public static UserBuilder anUser() {
+        return new UserBuilder();
+    }
 
     public UserBuilder firstName(String firstName) {
         this.firstName = firstName;
