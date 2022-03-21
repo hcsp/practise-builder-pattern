@@ -4,9 +4,14 @@ public class UserBuilder {
     // 请在这里使用builder模式建造User对象
     // 所需的接口请参阅UserBuilderTest测试类
     private  String firstName;
-    private String lastName;
+    /** 用户的姓 */
+    private  String lastName;
+
+    /** 用户的电话 */
     private  String phoneNumber;
-    private String address;
+
+    /** 用户的地址 */
+    private  String address;
     private UserBuilder() {
     }
 
