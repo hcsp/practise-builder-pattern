@@ -17,5 +17,6 @@ public class UserBuilderTest {
         Assertions.assertEquals("刘", user.getLastName());
         Assertions.assertEquals("我也不知道", user.getPhoneNumber());
         Assertions.assertEquals("可能在地球上吧", user.getAddress());
+
     }
 }
