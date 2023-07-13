@@ -6,13 +6,11 @@ import org.junit.jupiter.api.Test;
 public class UserBuilderTest {
     @Test
     public void canUseBuilderToCreateObjects() {
-        User user =
-                new UserBuilder()
-                        .firstName("德华")
-                        .lastName("刘")
-                        .phoneNumber("我也不知道")
-                        .address("可能在地球上吧")
-                        .build();
+        User user = new UserBuilder()
+                .withFirstName("德华")
+                .withLastName("刘")
+                .withPhoneNumber("我也不知道")
+                .withAddress("可能在地球上吧").build();
         Assertions.assertEquals("德华", user.getFirstName());
         Assertions.assertEquals("刘", user.getLastName());
         Assertions.assertEquals("我也不知道", user.getPhoneNumber());
