@@ -6,11 +6,7 @@ public final class UserBuilder {
     private String phoneNumber;
     private String address;
 
-    private UserBuilder() {
-    }
-
-    public static UserBuilder anUser() {
-        return new UserBuilder();
+    UserBuilder() {
     }
 
     public UserBuilder firstName(String firstName) {
