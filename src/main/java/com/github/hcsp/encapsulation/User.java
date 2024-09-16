@@ -14,18 +14,22 @@ public class User {
     private final String address;
 
     public String getFirstName() {
+
         return firstName;
     }
 
     public String getLastName() {
+
         return lastName;
     }
 
     public String getPhoneNumber() {
+
         return phoneNumber;
     }
 
     public String getAddress() {
+
         return address;
     }
 
