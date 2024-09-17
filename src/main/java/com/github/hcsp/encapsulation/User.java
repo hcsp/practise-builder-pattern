@@ -35,4 +35,5 @@ public class User {
         this.phoneNumber = phoneNumber;
         this.address = address;
     }
+
 }
